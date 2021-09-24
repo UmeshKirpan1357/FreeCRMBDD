@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the parameterization by using map with datatable",
+        "description": "",
+        "id": "verify-the-datatable-with-map;verify-the-parameterization-by-using-map-with-datatable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5470599800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "DealsMapDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18483000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of page is Free CRM",
+            "match": {
+              "location": "DealsMapDefinition.title_of_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3181158600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter username and password",
+            "match": {
+              "location": "DealsMapDefinition.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "umeshqa2019@gmail.com",
+                  "Umesh@488"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74874400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Login button",
+            "match": {
+              "location": "DealsMapDefinition.click_on_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2038547100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on home page",
+            "match": {
+              "location": "DealsMapDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 911153800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user moved to create deals page",
+            "match": {
+              "location": "DealsMapDefinition.user_moved_to_create_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30227892200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters deals details",
+            "match": {
+              "location": "DealsMapDefinition.user_enters_deals_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Description",
+                  "Amount",
+                  "Commission"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Test Deal1",
+                  "I am Deal Page1",
+                  "1000",
+                  "50"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Test Deal2",
+                  "I am Deal Page2",
+                  "2000",
+                  "60"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Test Deal3",
+                  "I am Deal Page3",
+                  "3000",
+                  "70"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Test Deal4",
+                  "I am Deal Page4",
+                  "4000",
+                  "80"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on save button",
+            "match": {
+              "location": "DealsMapDefinition.click_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 833847800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "DealsMapDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the DataTable with Map",
+    "description": "",
+    "id": "verify-the-datatable-with-map",
+    "keyword": "Feature",
+    "uri": "C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/DealsMap.feature"
+  }
+]
