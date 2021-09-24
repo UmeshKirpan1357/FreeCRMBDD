@@ -98,7 +98,7 @@ public class DealsMapDefinition {
 
 	@Then("^click on save button$")
 	public void click_on_save_button() {
-		System.out.println("Hello");
+		System.out.println("I am change in code");
 	
 	}
 
