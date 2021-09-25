@@ -1,193 +1,358 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "Verify the parameterization by using map with datatable",
+        "line": 5,
+        "name": "Login with valid credentials",
         "description": "",
-        "id": "verify-the-datatable-with-map;verify-the-parameterization-by-using-map-with-datatable",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-valid-credentials",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5470599800,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Login Page",
-            "match": {
-              "location": "DealsMapDefinition.user_is_on_Login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 18483000,
+              "duration": 349551700,
               "status": "passed"
             },
             "line": 6,
-            "name": "Title of page is Free CRM",
+            "name": "This is valid login test",
             "match": {
-              "location": "DealsMapDefinition.title_of_page_is_Free_CRM()"
+              "location": "tagDefinition.this_is_valid_login_test()"
             },
-            "keyword": "When "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 3181158600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Enter username and password",
-            "match": {
-              "location": "DealsMapDefinition.enter_username_and_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "umeshqa2019@gmail.com",
-                  "Umesh@488"
-                ],
-                "line": 9
-              }
-            ],
-            "keyword": "Then "
+            "line": 4,
+            "name": "@RegressionTest"
           },
           {
+            "line": 4,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
             "result": {
-              "duration": 74874400,
+              "duration": 38600,
               "status": "passed"
             },
             "line": 10,
-            "name": "Click on Login button",
+            "name": "This is valid login test",
             "match": {
-              "location": "DealsMapDefinition.click_on_Login_button()"
+              "location": "tagDefinition.this_is_valid_login_test()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 2038547100,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User is on home page",
-            "match": {
-              "location": "DealsMapDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify the Home page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-home-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 911153800,
+              "duration": 52100,
               "status": "passed"
             },
+            "line": 14,
+            "name": "This is Home page test",
+            "match": {
+              "location": "tagDefinition.this_is_Home_page_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
             "line": 12,
-            "name": "user moved to create deals page",
-            "match": {
-              "location": "DealsMapDefinition.user_moved_to_create_deals_page()"
-            },
-            "keyword": "Then "
+            "name": "@SmokeTest"
           },
           {
-            "result": {
-              "duration": 30227892200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user enters deals details",
-            "match": {
-              "location": "DealsMapDefinition.user_enters_deals_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Title",
-                  "Description",
-                  "Amount",
-                  "Commission"
-                ],
-                "line": 14
-              },
-              {
-                "cells": [
-                  "Test Deal1",
-                  "I am Deal Page1",
-                  "1000",
-                  "50"
-                ],
-                "line": 15
-              },
-              {
-                "cells": [
-                  "Test Deal2",
-                  "I am Deal Page2",
-                  "2000",
-                  "60"
-                ],
-                "line": 16
-              },
-              {
-                "cells": [
-                  "Test Deal3",
-                  "I am Deal Page3",
-                  "3000",
-                  "70"
-                ],
-                "line": 17
-              },
-              {
-                "cells": [
-                  "Test Deal4",
-                  "I am Deal Page4",
-                  "4000",
-                  "80"
-                ],
-                "line": 18
-              }
-            ],
-            "keyword": "Then "
-          },
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify the contact page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-contact-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 80800,
+              "duration": 69700,
               "status": "passed"
             },
-            "line": 19,
-            "name": "click on save button",
+            "line": 18,
+            "name": "This is contact page test",
             "match": {
-              "location": "DealsMapDefinition.click_on_save_button()"
+              "location": "tagDefinition.this_is_contact_page_test()"
             },
-            "keyword": "Then "
-          },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify the deals page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-deals-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 833847800,
+              "duration": 80300,
               "status": "passed"
             },
+            "line": 22,
+            "name": "This is deals page test",
+            "match": {
+              "location": "tagDefinition.this_is_deals_page_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
             "line": 20,
-            "name": "close the browser",
-            "match": {
-              "location": "DealsMapDefinition.close_the_browser()"
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Verify the task page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-task-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44200,
+              "status": "passed"
             },
-            "keyword": "Then "
+            "line": 26,
+            "name": "This is task page test",
+            "match": {
+              "location": "tagDefinition.this_is_task_page_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify the notes page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-notes-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "This is notes page test",
+            "match": {
+              "location": "tagDefinition.this_is_notes_page_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Verify the calendar page functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-calendar-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "This is calendar page test",
+            "match": {
+              "location": "tagDefinition.this_is_calendar_page_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 32,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Verify search functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "This is search functionality test",
+            "match": {
+              "location": "tagDefinition.this_is_search_functionality_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Verify profile functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-profile-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "This is profile functionality test",
+            "match": {
+              "location": "tagDefinition.this_is_profile_functionality_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 40,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Verify logout functionality",
+        "description": "",
+        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-logout-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "This is logout functionality test",
+            "match": {
+              "location": "tagDefinition.this_is_logout_functionality_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 44,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 44,
+            "name": "@End2End"
           }
         ]
       }
     ],
-    "name": "Verify the DataTable with Map",
+    "name": "verify the tagging functionality of the Cucumber",
     "description": "",
-    "id": "verify-the-datatable-with-map",
+    "id": "verify-the-tagging-functionality-of-the-cucumber",
     "keyword": "Feature",
-    "uri": "C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/DealsMap.feature"
+    "uri": "C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
   }
 ]

@@ -13,3 +13,4 @@ Then user enters deals details
 | Test Deal | I am Deal Page | 1000 | 200 |
 Then click on save button
 Then close the browser
+

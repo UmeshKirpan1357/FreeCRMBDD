@@ -1,188 +1,333 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/DealsMap.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/tagging.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Verify the DataTable with Map",
+  "line": 2,
+  "name": "verify the tagging functionality of the Cucumber",
   "description": "",
-  "id": "verify-the-datatable-with-map",
-  "keyword": "Feature"
+  "id": "verify-the-tagging-functionality-of-the-cucumber",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@FunctionalTest"
+    }
+  ]
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Verify the parameterization by using map with datatable",
-  "description": "",
-  "id": "verify-the-datatable-with-map;verify-the-parameterization-by-using-map-with-datatable",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
   "line": 5,
-  "name": "User is on Login Page",
-  "keyword": "Given "
+  "name": "Login with valid credentials",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-valid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 4,
+      "name": "@RegressionTest"
+    },
+    {
+      "line": 4,
+      "name": "@End2End"
+    }
+  ]
 });
 formatter.step({
   "line": 6,
-  "name": "Title of page is Free CRM",
-  "keyword": "When "
+  "name": "This is valid login test",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 7,
-  "name": "Enter username and password",
-  "rows": [
+formatter.match({
+  "location": "tagDefinition.this_is_valid_login_test()"
+});
+formatter.result({
+  "duration": 349551700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Login with invalid credentials",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-invalid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 8
+      "line": 8,
+      "name": "@SmokeTest"
     },
     {
-      "cells": [
-        "umeshqa2019@gmail.com",
-        "Umesh@488"
-      ],
-      "line": 9
+      "line": 8,
+      "name": "@RegressionTest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
   "line": 10,
-  "name": "Click on Login button",
-  "keyword": "Then "
+  "name": "This is valid login test",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 11,
-  "name": "User is on home page",
-  "keyword": "Then "
+formatter.match({
+  "location": "tagDefinition.this_is_valid_login_test()"
 });
-formatter.step({
-  "line": 12,
-  "name": "user moved to create deals page",
-  "keyword": "Then "
+formatter.result({
+  "duration": 38600,
+  "status": "passed"
 });
-formatter.step({
+formatter.scenario({
   "line": 13,
-  "name": "user enters deals details",
-  "rows": [
+  "name": "Verify the Home page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-home-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "Title",
-        "Description",
-        "Amount",
-        "Commission"
-      ],
-      "line": 14
+      "line": 12,
+      "name": "@SmokeTest"
     },
     {
-      "cells": [
-        "Test Deal1",
-        "I am Deal Page1",
-        "1000",
-        "50"
-      ],
-      "line": 15
-    },
-    {
-      "cells": [
-        "Test Deal2",
-        "I am Deal Page2",
-        "2000",
-        "60"
-      ],
-      "line": 16
-    },
-    {
-      "cells": [
-        "Test Deal3",
-        "I am Deal Page3",
-        "3000",
-        "70"
-      ],
-      "line": 17
-    },
-    {
-      "cells": [
-        "Test Deal4",
-        "I am Deal Page4",
-        "4000",
-        "80"
-      ],
-      "line": 18
+      "line": 12,
+      "name": "@RegressionTest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
-  "line": 19,
-  "name": "click on save button",
-  "keyword": "Then "
+  "line": 14,
+  "name": "This is Home page test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "tagDefinition.this_is_Home_page_test()"
+});
+formatter.result({
+  "duration": 52100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Verify the contact page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-contact-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@SmokeTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 20,
-  "name": "close the browser",
-  "keyword": "Then "
+  "line": 18,
+  "name": "This is contact page test",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "DealsMapDefinition.user_is_on_Login_Page()"
+  "location": "tagDefinition.this_is_contact_page_test()"
 });
 formatter.result({
-  "duration": 5470599800,
+  "duration": 69700,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 21,
+  "name": "Verify the deals page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-deals-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 20,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 22,
+  "name": "This is deals page test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.title_of_page_is_Free_CRM()"
+  "location": "tagDefinition.this_is_deals_page_test()"
 });
 formatter.result({
-  "duration": 18483000,
+  "duration": 80300,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 25,
+  "name": "Verify the task page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-task-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 24,
+      "name": "@RegressionTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "This is task page test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.enter_username_and_password(DataTable)"
+  "location": "tagDefinition.this_is_task_page_test()"
 });
 formatter.result({
-  "duration": 3181158600,
+  "duration": 44200,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 29,
+  "name": "Verify the notes page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-notes-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 28,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 30,
+  "name": "This is notes page test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.click_on_Login_button()"
+  "location": "tagDefinition.this_is_notes_page_test()"
 });
 formatter.result({
-  "duration": 74874400,
+  "duration": 55200,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 33,
+  "name": "Verify the calendar page functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-calendar-page-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 32,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 32,
+      "name": "@RegressionTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 34,
+  "name": "This is calendar page test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.user_is_on_home_page()"
+  "location": "tagDefinition.this_is_calendar_page_test()"
 });
 formatter.result({
-  "duration": 2038547100,
+  "duration": 60900,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 37,
+  "name": "Verify search functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-search-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 38,
+  "name": "This is search functionality test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.user_moved_to_create_deals_page()"
+  "location": "tagDefinition.this_is_search_functionality_test()"
 });
 formatter.result({
-  "duration": 911153800,
+  "duration": 88100,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 41,
+  "name": "Verify profile functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-profile-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 40,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 40,
+      "name": "@RegressionTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 42,
+  "name": "This is profile functionality test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.user_enters_deals_details(DataTable)"
+  "location": "tagDefinition.this_is_profile_functionality_test()"
 });
 formatter.result({
-  "duration": 30227892200,
+  "duration": 76900,
   "status": "passed"
 });
+formatter.scenario({
+  "line": 45,
+  "name": "Verify logout functionality",
+  "description": "",
+  "id": "verify-the-tagging-functionality-of-the-cucumber;verify-logout-functionality",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 44,
+      "name": "@SmokeTest"
+    },
+    {
+      "line": 44,
+      "name": "@RegressionTest"
+    },
+    {
+      "line": 44,
+      "name": "@End2End"
+    }
+  ]
+});
+formatter.step({
+  "line": 46,
+  "name": "This is logout functionality test",
+  "keyword": "Given "
+});
 formatter.match({
-  "location": "DealsMapDefinition.click_on_save_button()"
+  "location": "tagDefinition.this_is_logout_functionality_test()"
 });
 formatter.result({
-  "duration": 80800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealsMapDefinition.close_the_browser()"
-});
-formatter.result({
-  "duration": 833847800,
+  "duration": 86900,
   "status": "passed"
 });
 });
