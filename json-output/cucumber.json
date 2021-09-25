@@ -1,358 +1,342 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 5,
-        "name": "Login with valid credentials",
+        "before": [
+          {
+            "result": {
+              "duration": 492600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.openBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.brforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "First Scenario",
         "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-valid-credentials",
+        "id": "tagged-hooks;first-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 90800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 349551700,
+              "duration": 330624700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "First Step",
+            "match": {
+              "location": "TaggedHooks.first_Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 472800,
               "status": "passed"
             },
             "line": 6,
-            "name": "This is valid login test",
+            "name": "Second Step",
             "match": {
-              "location": "tagDefinition.this_is_valid_login_test()"
+              "location": "TaggedHooks.second_Step()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@SmokeTest"
+            "keyword": "When "
           },
-          {
-            "line": 4,
-            "name": "@RegressionTest"
-          },
-          {
-            "line": 4,
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "line": 9,
-        "name": "Login with invalid credentials",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;login-with-invalid-credentials",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
-              "duration": 38600,
+              "duration": 113100,
               "status": "passed"
             },
-            "line": 10,
-            "name": "This is valid login test",
+            "line": 7,
+            "name": "Third Step",
             "match": {
-              "location": "tagDefinition.this_is_valid_login_test()"
+              "location": "TaggedHooks.third_Step()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 8,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 8,
-            "name": "@RegressionTest"
+            "line": 3,
+            "name": "@First"
           }
         ]
       },
       {
-        "line": 13,
-        "name": "Verify the Home page functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-home-page-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+        "before": [
           {
             "result": {
-              "duration": 52100,
+              "duration": 283300,
               "status": "passed"
             },
-            "line": 14,
-            "name": "This is Home page test",
             "match": {
-              "location": "tagDefinition.this_is_Home_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 12,
-            "name": "@SmokeTest"
+              "location": "TaggedHooks.openBrowser()"
+            }
           },
           {
-            "line": 12,
-            "name": "@RegressionTest"
+            "result": {
+              "duration": 88400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.openBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 325200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.beforeSecond()"
+            }
           }
-        ]
-      },
-      {
-        "line": 17,
-        "name": "Verify the contact page functionality",
+        ],
+        "line": 10,
+        "name": "Second Scenario",
         "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-contact-page-functionality",
+        "id": "tagged-hooks;second-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 250700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 245600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 69700,
+              "duration": 249400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "First Step",
+            "match": {
+              "location": "TaggedHooks.first_Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Second Step",
+            "match": {
+              "location": "TaggedHooks.second_Step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Third Step",
+            "match": {
+              "location": "TaggedHooks.third_Step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 246200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 75500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.openBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Third Scenario",
+        "description": "",
+        "id": "tagged-hooks;third-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 539900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "First Step",
+            "match": {
+              "location": "TaggedHooks.first_Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211300,
               "status": "passed"
             },
             "line": 18,
-            "name": "This is contact page test",
+            "name": "Second Step",
             "match": {
-              "location": "tagDefinition.this_is_contact_page_test()"
+              "location": "TaggedHooks.second_Step()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 16,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "Verify the deals page functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-deals-page-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 80300,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "This is deals page test",
-            "match": {
-              "location": "tagDefinition.this_is_deals_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 20,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 25,
-        "name": "Verify the task page functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-task-page-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 44200,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "This is task page test",
-            "match": {
-              "location": "tagDefinition.this_is_task_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 24,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 29,
-        "name": "Verify the notes page functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-notes-page-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 55200,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "This is notes page test",
-            "match": {
-              "location": "tagDefinition.this_is_notes_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 28,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": "Verify the calendar page functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-the-calendar-page-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 60900,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "This is calendar page test",
-            "match": {
-              "location": "tagDefinition.this_is_calendar_page_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 32,
-            "name": "@SmokeTest"
+            "keyword": "When "
           },
           {
-            "line": 32,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 37,
-        "name": "Verify search functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-search-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
             "result": {
-              "duration": 88100,
+              "duration": 97300,
               "status": "passed"
             },
-            "line": 38,
-            "name": "This is search functionality test",
+            "line": 19,
+            "name": "Third Step",
             "match": {
-              "location": "tagDefinition.this_is_search_functionality_test()"
+              "location": "TaggedHooks.third_Step()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 36,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 41,
-        "name": "Verify profile functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-profile-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 76900,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "This is profile functionality test",
-            "match": {
-              "location": "tagDefinition.this_is_profile_functionality_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 40,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 40,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 45,
-        "name": "Verify logout functionality",
-        "description": "",
-        "id": "verify-the-tagging-functionality-of-the-cucumber;verify-logout-functionality",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 86900,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "This is logout functionality test",
-            "match": {
-              "location": "tagDefinition.this_is_logout_functionality_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 44,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 44,
-            "name": "@RegressionTest"
-          },
-          {
-            "line": 44,
-            "name": "@End2End"
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "verify the tagging functionality of the Cucumber",
+    "name": "Tagged Hooks",
     "description": "",
-    "id": "verify-the-tagging-functionality-of-the-cucumber",
+    "id": "tagged-hooks",
     "keyword": "Feature",
-    "uri": "C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/tagging.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@FunctionalTest"
-      }
-    ]
+    "uri": "C:/Users/Umesh/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/taggedhooks.feature"
   }
 ]

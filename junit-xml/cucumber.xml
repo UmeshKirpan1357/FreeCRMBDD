@@ -1,68 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="0.350205">
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Login with valid credentials" time="0.349552">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.335869">
+    <testcase classname="Tagged Hooks" name="First Scenario" time="0.332207">
         <system-out>
-            <![CDATA[Given This is valid login test..............................................passed
+            <![CDATA[Given First Step............................................................passed
+When Second Step............................................................passed
+Then Third Step.............................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Login with invalid credentials" time="0.000039">
+    <testcase classname="Tagged Hooks" name="Second Scenario" time="0.001927">
         <system-out>
-            <![CDATA[Given This is valid login test..............................................passed
+            <![CDATA[Given First Step............................................................passed
+When Second Step............................................................passed
+Then Third Step.............................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the Home page functionality" time="0.000052">
+    <testcase classname="Tagged Hooks" name="Third Scenario" time="0.001735">
         <system-out>
-            <![CDATA[Given This is Home page test................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the contact page functionality" time="0.00007">
-        <system-out>
-            <![CDATA[Given This is contact page test.............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the deals page functionality" time="0.00008">
-        <system-out>
-            <![CDATA[Given This is deals page test...............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the task page functionality" time="0.000044">
-        <system-out>
-            <![CDATA[Given This is task page test................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the notes page functionality" time="0.000055">
-        <system-out>
-            <![CDATA[Given This is notes page test...............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify the calendar page functionality" time="0.000061">
-        <system-out>
-            <![CDATA[Given This is calendar page test............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify search functionality" time="0.000088">
-        <system-out>
-            <![CDATA[Given This is search functionality test.....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify profile functionality" time="0.000077">
-        <system-out>
-            <![CDATA[Given This is profile functionality test....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="verify the tagging functionality of the Cucumber" name="Verify logout functionality" time="0.000087">
-        <system-out>
-            <![CDATA[Given This is logout functionality test.....................................passed
+            <![CDATA[Given First Step............................................................passed
+When Second Step............................................................passed
+Then Third Step.............................................................passed
 ]]>
         </system-out>
     </testcase>
